@@ -26,7 +26,7 @@ def press(num):
 def sprawdz():
     global expression
     print(len(expression))
-    if len(expression)>10:
+    if len(expression)>18:
         equation.set(" error ")
         expression = ""
     else:
